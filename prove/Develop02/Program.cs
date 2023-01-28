@@ -4,8 +4,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop02 World!");
+        Console.WriteLine("Welcome to the Journal Program!");
+        Journal journal = new Journal();
+        JournalEntry entry = new JournalEntry();
 
+        bool start = journal._isWork;
+
+        while (start)
+        {
+            journal.ShowMenu();
+            journal.SetChoice();
+
+            start = journal._isWork;
+        }
+
+        
         /*
         What are good candidates for classes in this program?
 
@@ -16,7 +29,7 @@ class Program
 
         What are the behaviors this class will have in order to fulfill its responsibilities?
 
-        Jornal Class:
+        Journal Class:
             Adding an entry
             Displaying all the entries
             Saving to a file
