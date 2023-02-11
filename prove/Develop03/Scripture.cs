@@ -15,7 +15,7 @@ public class Scripture
         _isCompletelyHidden = false;
     }
 
-    public void HideWord()
+    private void HideWord()
     {
         this.UpdateRemaingIndexes();
         
@@ -51,7 +51,7 @@ public class Scripture
         _remaingIndexes = numbers;
     }
 
-    public string Display()
+    private string Display()
     {
         string str = String.Join(" ", _listWord);
         Console.Clear();
@@ -88,7 +88,7 @@ public class Scripture
         }
     }
 
-    public bool GetIsCompletelyHidden()
+    private bool GetIsCompletelyHidden()
     {
         return _isCompletelyHidden;
     }
