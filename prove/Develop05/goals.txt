@@ -1,0 +1,4 @@
+70
+SimpleGoal;wwwwwwwww;dddddddddd;30;x
+EternalGoal;sssssssss;dddddddddd;20; 
+ChecklistGoal;xxxxxxxxx;dddddddddd;40; ;1;100;3
